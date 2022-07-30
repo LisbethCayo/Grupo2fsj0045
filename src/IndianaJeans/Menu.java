@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Menu {
 	
+<<<<<<< HEAD
 		Scanner sc = new Scanner(System.in);
 		ProductoServicio productoServicio = new ProductoServicio(); //listar productos
 		ArchivoServicio archivoServicio = new ArchivoServicio(); //cargar datos
@@ -60,3 +61,20 @@ public class Menu {
 		
 	}
 }
+=======
+	
+	
+	public static void menu () {
+			
+			System.out.println("MENU PRINCIPAL");
+			System.out.println("1. Listar Producto");
+			System.out.println("2. Agregar producto");
+			System.out.println("3. Exportar datos");
+			System.out.println("4. Salir \n");
+			System.out.println("Elija una opcion");
+			
+		}
+
+
+}
+>>>>>>> b6907917e2419d9841075067a873896a8376460d
